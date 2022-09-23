@@ -1,6 +1,4 @@
 
-import * as React from 'react';
-
 
 
 const Topbar = ({setProjects, setHome, setIntro, setAbout, setBar, setContact}) => {
