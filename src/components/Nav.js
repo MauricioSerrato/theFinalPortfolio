@@ -42,23 +42,7 @@ const openContacts = () => {
 
   return (
     <></>
-//     <Navbar bg="" variant="dark" sticky=""  className=''>
-//     <Container >
-//       <div>
-//       <Navbar.Brand >
-//         <img className='logo' src='./logo.png' alt='logo'/>
-//       </Navbar.Brand>
-//       </div>
-//       <div>
-//       <Nav className="me-auto">
-//         <Nav.Link className="navItems" onClick={() => {openHome()}} >Home</Nav.Link>
-//         <Nav.Link className="navItems" onClick={() => {getAbout()}} >About</Nav.Link>
-//         <Nav.Link className="navItems" onClick={()=> {openProjects()}} >Projects</Nav.Link>
-//         <Nav.Link className="navItems" onClick={() => {openContacts()}} >Contact</Nav.Link>
-//       </Nav>
-//       </div>
-//     </Container>
-//   </Navbar>
+
   )
 }
 

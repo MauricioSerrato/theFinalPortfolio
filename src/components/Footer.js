@@ -13,28 +13,6 @@ const Footer = ({setProjects, setHome, setIntro, setAbout, setBar, bar, setConta
   }
   return (
     <></>
-    // <Navbar  className="bottom" sticky="">
-    //   <Container>
-    //     <Navbar.Brand className="occupation"> Software Engineer</Navbar.Brand>
-    //     <Navbar.Toggle />
-    //     <Navbar.Collapse className="justify-content-end"> 
-    //       <Navbar.Text >
-    //         <a href='https://www.linkedin.com/in/mauricioserrato/' target="_blank" rel='noreferrer' >
-    //         <FaLinkedin id="LinkedIn"/>
-    //         </a>
-    //       </Navbar.Text>
-    //       <Navbar.Text>
-    //         <a href="https://github.com/MauricioSerrato" target="_blank" rel='noreferrer'>
-    //           <FaGithub id="Git"/>
-    //         </a>  
-    //       </Navbar.Text>
-    //       <Navbar.Text>
-    //           <MdEmail  onClick={openContacts} id="email"/>
-             
-    //       </Navbar.Text>
-    //     </Navbar.Collapse>
-    //   </Container>
-    // </Navbar>
   );
 }
 
