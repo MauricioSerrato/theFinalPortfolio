@@ -1,4 +1,4 @@
-import './App.css';
+
 import Topbar from './components/Nav.js'
 import Footer from './components/Footer';
 import Projects from './components/Projects';
