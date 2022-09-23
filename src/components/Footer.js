@@ -1,10 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import FaLinkedin from 'react-icons/fa'
-import FaGithub from 'react-icons/fa';
-import MdEmail from 'react-icons/md'
 
-const Footer = ({setProjects, setHome, setIntro, setAbout, setContact}) => {
+
+const Footer = ({setProjects, setHome, setAbout, setContact}) => {
   const openContacts = () => {
     setContact(true)
     setHome(false)
@@ -19,16 +17,18 @@ const Footer = ({setProjects, setHome, setIntro, setAbout, setContact}) => {
         <Navbar.Collapse className="justify-content-end"> 
           <Navbar.Text >
             <a href='https://www.linkedin.com/in/mauricioserrato/' target="_blank" rel='noreferrer' >
-            <FaLinkedin id="LinkedIn"/>
+            <i class="bi bi-linkedin" id='LinkedIn'></i>
+            
             </a>
           </Navbar.Text>
           <Navbar.Text>
             <a href="https://github.com/MauricioSerrato" target="_blank" rel='noreferrer'>
-              <FaGithub id="Git"/>
+            <i class="bi bi-github" id='Git'></i>
+              
             </a>  
           </Navbar.Text>
           <Navbar.Text>
-              <MdEmail  onClick={openContacts} id="email"/>
+              <i class="bi bi-envelope" onClick={openContacts} id="email"></i>
              
           </Navbar.Text>
         </Navbar.Collapse>
