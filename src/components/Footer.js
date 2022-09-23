@@ -1,8 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import {FaLinkedin} from 'react-icons/fa'
-import {FaGithub} from 'react-icons/fa';
-import {MdEmail} from 'react-icons/md'
+import FaLinkedin from 'react-icons/fa'
+import FaGithub from 'react-icons/fa';
+import MdEmail from 'react-icons/md'
 
 const Footer = ({setProjects, setHome, setIntro, setAbout, setContact}) => {
   const openContacts = () => {
