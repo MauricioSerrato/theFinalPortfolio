@@ -4,13 +4,14 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
-const Topbar = ({setProjects, setHome, setIntro, setAbout, setBar, setContact}) => {
+const Topbar = ({setProjects, setHome, setIntro, setAbout, setBar, setContact, setResume}) => {
 
 const openProjects = () => {
   setProjects(true)
   setHome(false)
   setContact(false)
   setAbout(false)
+  setResume(false)
   }
 
 const openHome = () => {
@@ -19,7 +20,7 @@ const openHome = () => {
   setProjects(false)
   setAbout(false)
   setContact(false)
-
+  setResume(false)
 }
 
 const getAbout = () => {
@@ -27,6 +28,7 @@ const getAbout = () => {
   setAbout(true)
   setProjects(false)
   setContact(false)
+  setResume(false)
 
 
 }
@@ -36,6 +38,16 @@ const openContacts = () => {
   setHome(false)
   setProjects(false)
   setAbout(false)
+  setResume(false)
+}
+
+const openResume = () => { 
+  setContact(false)
+  setHome(false)
+  setProjects(false)
+  setAbout(false)
+  setResume(true)
+
 }
 
 
@@ -54,7 +66,9 @@ const openContacts = () => {
         <Nav.Link className="navItems" onClick={() => {openHome()}} >Home</Nav.Link>
         <Nav.Link className="navItems" onClick={() => {getAbout()}} >About</Nav.Link>
         <Nav.Link className="navItems" onClick={()=> {openProjects()}} >Projects</Nav.Link>
+        <Nav.Link className="navItems" onClick={() => {openResume()}}>Resume</Nav.Link>
         <Nav.Link className="navItems" onClick={() => {openContacts()}} >Contact</Nav.Link>
+      
       </Nav>
       </div>
     </Container>

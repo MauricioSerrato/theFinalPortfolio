@@ -52,6 +52,23 @@ const Projects = () => {
         </a>
       </Card.Body>
     </Card>
+
+
+    <Card className="cardcontainer">
+      <img className="braveheart" src="./Dial'n.png" alt='yelloapp'/>
+      <Card.Body className="cardItems">
+        <Card.Title>Yello</Card.Title>
+        <Card.Text>
+          Dail.N an application Developed with Ruby on Rail . This project was created in the intent for its users to log in and create post that will track time posted woker ID of who posted and the locations. This application was created with multiple routes as well as custom css/bootstrap, and a variety of Ruby Gems (Devise, Geocoder). This application also has full CRUD funcationality on the post and user accounts.
+        </Card.Text>
+        <a href="https://intense-spire-56626.herokuapp.com/" target="_blank" rel='noreferrer'>
+        <Button  className="btn">Visit Site</Button>
+        </a>
+        <a href="https://github.com/MauricioSerrato/clockIn" target="_blank" rel='noreferrer'>
+        <Button className="btn">Visit Git Repo</Button>
+        </a>
+      </Card.Body>
+    </Card>
     </>
   );
 }

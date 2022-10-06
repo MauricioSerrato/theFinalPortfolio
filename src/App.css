@@ -730,6 +730,7 @@ flex-basis: auto;
 }
 
 
+
 @keyframes animStar {
   from {
       transform: translateY(0px);
@@ -841,4 +842,19 @@ button{
   align-items: center;
   text-align: center;
   font-family: 'Poppins', sans-serif;
+}
+
+.skills{
+  height: 10vh;
+  display: flex;
+  background-color: black;
+  flex-wrap: wrap;
+  overflow-x: scroll;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icon{
+  width: 115px;
+  height: 80px;
 }

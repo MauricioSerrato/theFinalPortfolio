@@ -6,6 +6,7 @@ const Home = ({intro, about}) => {
 
     return(
       <>
+      
         <div className="talk">
           {intro ? <div>
           <h2>Hello!</h2>
